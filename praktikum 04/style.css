@@ -1,0 +1,46 @@
+img{
+    width: 500px;
+    height: 200px;
+}
+body{
+	background: red;
+	color: white;
+}
+.tulisan_kosong{
+	font-color: white;
+	font-family: sans-serif;
+	font-style: lineheight;
+}
+.tulisan_satu{
+	font-color: red;
+	font-family: sans-serif;
+	font-style: textalign;
+}
+.tulisan_dua{
+	font-color: white;
+	font-family: sans-serif;
+	font-style: textdecoration;
+} 
+.tulisan_tiga{
+	font-color: white;
+	font-family: sans-serif;
+	font-style: fontsize;
+}
+.box{
+	background: black;
+	height: 100px;
+	width: 600px;
+	padding: 10px;
+}
+.box2{
+	background: black;
+	height: 100px;
+	width: 600px;
+	padding: 10px;
+}
+.box3{
+	background: black;
+	height: 100px;
+	width: 600px;
+	padding: 10px;
+}
