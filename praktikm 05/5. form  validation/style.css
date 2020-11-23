@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #1eff00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4{
+    margin: 16px 0px;
+    font-size: 2rem;
+}
+
+input {
+    margin: 10px 0;
+    padding: 4px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 4px;
+}
+
+input:focus{
+    border: 1px solid black;
+}
+
+input.success {
+    border: 2px solid rgb(4, 0, 255);
+}
+input.error {
+    border: 2px solid red;
+}

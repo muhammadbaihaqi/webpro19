@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kurs to rupiah</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__title">
+        <h1>Konversi ke rupiah</h1>
+      </div>
+      <div class="card__content">
+        <input type="number" name="kursAwal" id="kursAwal" />
+        <select name="kurs" id="kurs">
+          <option value="pilih kurs">Pilih kurs</option>
+          <option value="dolarUs">Dollar us</option>
+          <option value="dolarSingapore">Dolar singapura</option>
+          <option value="ringgitMalay">Ringgit malaysia</option>
+          <option value="yenJepang">Yen jepang</option>
+          <option value="euro">Euro</option>
+          <option value="riyal">Riyal</option>
+        </select>
+        <input type="text" name="kursAkhir" id="kursAkhir" readonly />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
